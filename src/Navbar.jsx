@@ -77,7 +77,7 @@ const Navbar = () => {
             {NavItems.map((item, index) => (
               <li
                 key={index}
-                className={`relative group cursor-pointer md:px-10 px-5 py-2 font-medium md:text-[1.2rem] lg:text-[1.7rem] text-[1.8rem] flex  items-center tracking-wide transition-all duration-300 
+                className={`font-[FirstFont] relative group cursor-pointer md:px-10 px-5 py-2 font-medium md:text-[1.2rem] lg:text-[1.3rem] text-[1.8rem] flex  items-center tracking-wide transition-all duration-300 
           ${
             item.label === "Contact"
               ? " card-shinee rounded-lg  "

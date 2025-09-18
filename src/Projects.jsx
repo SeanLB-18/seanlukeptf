@@ -80,7 +80,7 @@ const Projects = () => {
             <div className="flex justify-center flex-col items-center">
               <button
                 onClick={() => setIsContactOpen(true)}
-                className="relative px-8 py-3 rounded-md cursor-pointer
+                className="relative px-6 py-3 rounded-md cursor-pointer
                 bg-white/10 backdrop-blur-md border border-white/20 
                 text-white tracking-wider font-medium
                 shadow-md hover:bg-gray-900/20 hover:-translate-y-1
@@ -88,7 +88,7 @@ const Projects = () => {
                 transition-all duration-300 
                 overflow-hidden group"
               >
-                <span className="relative z-10 font-[ThirdFont] tracking-wider text-[1.5rem]">
+                <span className="relative z-10 font-[FirstFont] tracking-wider text-[1.5rem]">
                   Contact me
                 </span>
                 <span
