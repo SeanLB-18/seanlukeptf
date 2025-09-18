@@ -64,14 +64,14 @@ const ContactModal = ({ isOpen, onClose }) => {
 
     emailjs
       .send(
-        "service_tyrfguw", 
-        "template_rxikh2g", 
+         import.meta.env.VITE_EMAILJS_SERVICE_ID,
+         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         {
           name: formData.name,
           email: formData.email,
           message: formData.message,
         },
-        "fZNE7SD1lqCZSgvaT" 
+         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
