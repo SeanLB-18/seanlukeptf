@@ -1,5 +1,5 @@
 import React from "react";
-import { projectList } from "./projectList";
+import { projectList } from "./ProjectList";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -18,14 +18,13 @@ const ProjectCard = ({ project }) => {
       <h2 className="text-[1.2rem]  font-semibold border-b-2 border-white/30 w-fit pb-1 ml-5 bg-gradient-to-r from-backgroundiff to-whitediff text-transparent bg-clip-text text-shadow-lg/3 ">
         {project.name}
       </h2>
-     
-        <p
-          className="lg:text-[0.8rem] pl-1 xl:text-[0.9rem] md:text-[0.9rem] text-[0.8rem] w-full tracking-wider   text-white  pt-4 "
-          style={{ textShadow: "0px 1px 4px rgba(0,0,0,0.6)" }}
-        >
-          {project.description}
-        </p>
-      
+
+      <p
+        className="lg:text-[0.8rem] pl-1 xl:text-[0.9rem] md:text-[0.9rem] text-[0.8rem] w-full tracking-wider   text-white  pt-4 "
+        style={{ textShadow: "0px 1px 4px rgba(0,0,0,0.6)" }}
+      >
+        {project.description}
+      </p>
 
       <div className="flex space-x-5 ml-4 opacity-90 pt-5  ">
         {project.logos.map((logos, i) => (

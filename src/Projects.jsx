@@ -1,6 +1,6 @@
-import React, { useRef, useState } from "react"; 
+import React, { useRef, useState } from "react";
 
-import { projectList } from "./projectList";
+import { projectList } from "./ProjectList";
 import ProjectCard from "./ProjectCard";
 import { socialLink } from "./socialLink";
 import cube from "./assets/cube.png";
