@@ -7,7 +7,7 @@ import blender from "./picture/blenderr.png";
 import unity from "./picture/unityy.png";
 import react from "./picture/react.png";
 
-export const projectList = [
+const projectList = [
   {
     name: "Store 201",
     description:
@@ -23,3 +23,5 @@ export const projectList = [
     logos: [cSharp, blender, unity],
   },
 ];
+
+export default projectList;
