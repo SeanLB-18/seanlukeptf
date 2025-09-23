@@ -45,14 +45,15 @@ const FirstSection = () => {
 
               <div className="flex gap-5 text-gray-300 items-center ">
             
-                <motion.button
+                <motion.a
+                onClick={() => window.open("/Sean Luke Balbin_resume.pdf", "_blank")}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.3 }}
                   className=" text-[0.8rem] md:text-[1rem] h-10 w-24 rounded-md cursor-pointer card-shinee transition-transform ease-in-out duration-300 hover:-translate-y-1"
                 >
                   Resume
-                </motion.button>
+                </motion.a>
 
              
                 <motion.button
