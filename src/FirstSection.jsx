@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
-import NavItems from ".NavItems.jsx"
 import { loadFull } from "tsparticles";
 import BackgroundShapesCanvas from "./BackGroundShapesCanvas";
 import { motion, AnimatePresence } from "framer-motion";
@@ -61,7 +60,7 @@ const FirstSection = () => {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: 0.6 }}
-                  className="text-[0.8rem] md:text-[1rem] card-shinee h-10 w-24 rounded-md cursor-pointer transition-transform ease-in-out duration-300 hover:-translate-y-1"
+                  className="text-[0.8rem] md:text-[1rem] card-shinee h-10 w-24 rounded-md cursor-pointer transition-transform ease-in-out duration-300 hover:-translate-y-1 flex justify-center items-center"
                 >
                   Projects
                 </motion.a>
