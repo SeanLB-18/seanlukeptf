@@ -1,5 +1,5 @@
 import React from "react";
-import { projectList } from "./ProjectList.jsx";
+import { projectList } from "./ProjectList";
 
 const ProjectCard = ({ project }) => {
   return (
