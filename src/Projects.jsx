@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import  projectList  from "./ProjectList.jsx";
+import { projectList } from "./ProjectList";
 import ProjectCard from "./ProjectCard";
 import { socialLink } from "./socialLink";
 import cube from "./assets/cube.png";
