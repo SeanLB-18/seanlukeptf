@@ -7,7 +7,7 @@ import blender from "./picture/blenderr.png"
 import unity from "./picture/unityy.png";
 import react from './picture/react.png'
 
-export const ProjectList = [
+export const projectList = [
   {
     name: "Store 201",
     description:
